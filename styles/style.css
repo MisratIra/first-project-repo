@@ -15,11 +15,17 @@ li a {
 }
 li a:hover {
 	margin-top: 0;
-	background-color: skyblue;
+	background-color: ;
 }
 from {
 	float: right;
 	padding: 16px;
+}
+from button {
+	background-color: rgb(181, 232, 232);
+}
+from input {
+	background-color: rgb(181, 232, 232);
 }
 .flex-container {
 	display: flex;
@@ -80,5 +86,10 @@ footer p {
 @media screen and (max-width: 600px) {
 	.flex-container {
 		flex-direction: column;
+	}
+	from {
+		float: left;
+		margin-left: 36px;
+		padding: 8px;
 	}
 }
