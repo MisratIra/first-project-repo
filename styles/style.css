@@ -13,35 +13,32 @@ li a {
 	padding: 10px;
 	text-decoration: none;
 }
-li a:hover {
-	margin-top: 0;
-	background-color: ;
+ul li:hover {
+	margin: 0px 6px 0px 6px;
+	padding: 0px 4px 0px 4px;
+	background-color: rgb(177, 200, 200);
 }
 from {
 	float: right;
 	padding: 16px;
+	background-color: rgb(177, 200, 200);
 }
-from button {
-	background-color: rgb(181, 232, 232);
-}
-from input {
-	background-color: rgb(181, 232, 232);
+.flex-container p {
+	padding: 0px 20px 0px 20px;
 }
 .flex-container {
 	display: flex;
 	justify-content: center;
-	width: 100%;
+	width: 100;
 }
 h1 {
 	text-align: center;
 }
+
 .div1 {
 	text-align: justify;
 	width: 100%;
 	background-color: antiquewhite;
-}
-.flex-container p {
-	padding: 10px;
 }
 .div2 {
 	width: 100%;
