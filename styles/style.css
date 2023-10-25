@@ -21,7 +21,6 @@ ul li:hover {
 from {
 	float: right;
 	padding: 16px;
-	background-color: rgb(177, 200, 200);
 }
 .flex-container p {
 	padding: 0px 20px 0px 20px;
@@ -29,7 +28,7 @@ from {
 .flex-container {
 	display: flex;
 	justify-content: center;
-	width: 100;
+	width: 100%;
 }
 h1 {
 	text-align: center;
@@ -83,10 +82,11 @@ footer p {
 @media screen and (max-width: 600px) {
 	.flex-container {
 		flex-direction: column;
+		
 	}
 	from {
-		float: left;
-		margin-left: 36px;
+		float:left;
 		padding: 8px;
+		width: 100%;
+		background-color: rgb(177, 200, 200);
 	}
-}
