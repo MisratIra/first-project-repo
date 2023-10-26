@@ -87,7 +87,7 @@ footer p {
 		
 	}
 	from {
-		float:left;
+		margin-left: 40px;
 		padding: 8px;
 		width: 100%;
 		background-color: rgb(177, 200, 200);
