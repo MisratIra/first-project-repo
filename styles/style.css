@@ -1,6 +1,5 @@
 body {
 	margin: 0px;
-	width: 100%;
 }
 nav {
 	background-color: rgb(181, 232, 232);
@@ -86,7 +85,6 @@ footer p {
 		flex-direction: column;
 	}
 	from {
-		margin-left: 40px;
 		padding: 8px;
 		width: 100%;
 		background-color: rgb(177, 200, 200);
