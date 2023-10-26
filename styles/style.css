@@ -22,7 +22,6 @@ ul li:hover {
 from {
 	float: right;
 	padding: 16px;
-	
 }
 .flex-container p {
 	padding: 0px 20px 0px 20px;
@@ -81,10 +80,10 @@ footer p {
 	margin: 0;
 	padding: 10px;
 }
+
 @media screen and (max-width: 600px) {
 	.flex-container {
 		flex-direction: column;
-		
 	}
 	from {
 		margin-left: 40px;
@@ -92,3 +91,7 @@ footer p {
 		width: 100%;
 		background-color: rgb(177, 200, 200);
 	}
+	.input {
+		margin-left: 40px;
+	}
+}
